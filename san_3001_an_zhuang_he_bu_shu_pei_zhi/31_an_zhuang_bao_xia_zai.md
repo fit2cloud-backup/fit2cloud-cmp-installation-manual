@@ -1,0 +1,11 @@
+## **3.1 安装包下载** {#3-1}
+
+**表3‐01 安装包下载地址列表**
+
+| 名称 | 下载地址 |
+| --- | --- |
+| FIT2CLOUD安装包 | [http://f2c-enterprise-rel.oss-cn-hangzhou.aliyuncs.com/0.2/general/f2c-ops-latest.zip](http://f2c-enterprise-rel.oss-cn-hangzhou.aliyuncs.com/0.2/general/f2c-ops-latest.zip) |
+| NEXUS安装包 | [https://s3.cn-north-1.amazonaws.com.cn/fit2cloud-offline-installer/nexus/nexus-all-in-one.zip](https://s3.cn-north-1.amazonaws.com.cn/fit2cloud-offline-installer/nexus/nexus-all-in-one.zip) |
+| JENKINS安装包 | [https://s3.cn-north-1.amazonaws.com.cn/fit2cloud-offline-installer/jenkins/jenkins-all-in-one.zip](https://s3.cn-north-1.amazonaws.com.cn/fit2cloud-offline-installer/jenkins/jenkins-all-in-one.zip) |
+| GITLAB安装包 | [https://s3.cn-north-1.amazonaws.com.cn/fit2cloud-offline-installer/gitlab/gitlab-all-in-one.zip](https://s3.cn-north-1.amazonaws.com.cn/fit2cloud-offline-installer/gitlab/gitlab-all-in-one.zip) |
+| [OSS](https://s3.cn-north-1.amazonaws.com.cn/fit2cloud-offline-installer/gitlab/gitlab-7.6.2_omnibus.5.3.0.ci.1-1.el6.x86_64.rpm)[CMD安装包](https://s3.cn-north-1.amazonaws.com.cn/fit2cloud-offline-installer/gitlab/gitlab-7.6.2_omnibus.5.3.0.ci.1-1.el6.x86_64.rpm) | [https://s3.cn-north-1.amazonaws.com.cn/fit2cloud-offline-installer/osscmd/OSS_Python_API_20130806.tar.gz](https://s3.cn-north-1.amazonaws.com.cn/fit2cloud-offline-installer/gitlab/gitlab-7.6.2_omnibus.5.3.0.ci.1-1.el6.x86_64.rpm) |

@@ -1,0 +1,25 @@
+## **7.1 JENKINS磁盘定时清理** {#7-1-jenkins}
+
+在Jenkins进行构建和打包上传到Nexus的过程中，在jenkins的workspace和本地的nexus repository下会产生大量的临时文件，随着构建任务的构建，将会占用大量的磁盘空间，如不加清理，最后会由于磁盘空间被占满导致服务不可用。
+
+如果使用FIT2CLOUD的Jenkins离线安装包，则清理cron任务会自动安装，为每日凌晨三点进行清理；否则需要按照以下步骤配置自动清理任务，
+
+1) 登录FIT2CLOUD
+
+2) 导入Jenkins到devops集群jenkins主机组
+
+3) 创建清理脚本
+
+新建脚本名称为jenkins-clean，脚本内容见将离线安装包f2c-ops下devops/jenkins/clean.sh 。
+
+4) 创建定时执行脚本任务
+
+*   选择脚本-&gt;定时任务-&gt;新建
+*   设定清理时间为每日凌晨3时00分
+*   设定执行的脚本为上面新建脚本
+*   设定执行范围为集群为devops，主机组为jenkins
+
+注意事项:
+
+*   清理的Maven repo默认路径为~/.m2/repository，如果该目录为非默认路径，需要修改清理脚本中路径为实际路径;
+*   清理的Jenkins workspace路径默认为~/.jenkins，如果该目录为非默认路径，需要修改清理脚本中路径为实际路径;

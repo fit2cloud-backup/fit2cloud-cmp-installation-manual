@@ -1,0 +1,11 @@
+# **一、本文档的目的**
+
+面向FIT2CLOUD系统管理员，描述系统各方面管理维护方法:
+
+1.  描述FIT2CLOUD部署架构及配置要求；
+2.  描述FIT2CLOUD安装和配置；
+3.  描述FIT2CLOUD日志；
+4.  描述FIT2CLOUD管理操作命令；
+5.  描述FIT2CLOUD日常维护和优化；
+6.  描述FIT2CLOUD监控和告警；
+7.  描述FIT2CLOUD备份和恢复；

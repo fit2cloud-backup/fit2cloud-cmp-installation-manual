@@ -1,0 +1,7 @@
+## **8.1 备份策略及机制** {#8-1}
+
+| 系统 | 备份策略 | 备份时间 | 保留数量 | 备份文件 | OSS备份路径(如果有) |
+| --- | --- | --- | --- | --- | --- |
+| FIT2CLOUD | 每日全量 | 00点00分 | 3 | 数据库数据和配置文件(/opt/fit2cloud下) | oss://&lt;bucketname&gt;/fit2cloud-backup/fit2cloud/ |
+| JENKINS | 每日全量 | 00点00分 | 3 | Jenkins构建任务 | oss://&lt;bucketname&gt;/fit2cloud-backup/jenkins/ |
+| NEXUS | 每周全量 | 周日00点00分 | 3 | /opt/apache-tomcat-7.0.65 | oss://&lt;bucketname&gt;/fit2cloud-backup/nexus/ |

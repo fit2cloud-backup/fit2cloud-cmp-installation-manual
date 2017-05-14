@@ -1,0 +1,50 @@
+## **3.2 安装FIT2CLOUD** {#3-2-fit2cloud}
+
+注意事项:
+
+*   部署前检查FIT2CLOUD服务时间正确为当前时间
+*   确认操作系统为CentOS6.x，并且干净，没有安装过MySQL, RabbitMQ等中间件
+
+1.  将安装包复制到要部署主机的 /tmp 下面，执行部署脚本：
+
+| cd /tmp |
+| --- |
+
+1.  如果安装成功，会出现如下信息：
+
+_FIT2CLOUD安装完毕!_
+
+_你可以使用service命令管理fit2cloud, 支持的操作包括: [start, stop, restart, status, upgrade]_
+
+部署完成1分钟后，就可以在 /opt/fit2cloud/Readme.txt中查看管理员的用户名和密码。
+
+1.  FIT2CLOUD系统配置
+
+注意事项:
+
+如果FIT2CLOUD仅管理内网主机：
+
+*   将 system.repo.master 和 system.repo.backup 的值全部设置为内网IP地址
+*   将 system.externallp 和 system.internalIp 全部设置为内网IP
+
+1.  修改管理员邮箱和密码
+
+如需修改，以管理员登陆，在_账户管理_中，点击管理员账号后面的操作，选择_修改邮箱_。
+
+1.  创建FIT2CLOUD用户
+
+以管理员登陆，在_账户管理_中，为不同项目组建立不同账号。
+
+1.  安装和配置云插件
+
+a. 以管理员身份登陆FIT2CLOUD
+
+b. 选择插件管理 -&gt; 新建 -&gt; 上传插件文件
+
+插件文件可从FIT2CLOUD服务器/opt/fit2cloud/plugins目录下载
+
+c. 插件上传成功之后重启FIT2CLOUD
+
+执行：service fit2cloud restart
+
+d. 重启成功之后可以使用FIT2CLOUD的云插件功能

@@ -1,0 +1,16 @@
+## **9.4 NEXUS私有库恢复** {#9-4-nexus}
+
+注意事项: 恢复后的虚拟机IP地址不能变
+
+1.  下载最新备份文件
+
+通过osscmd命令可以查看OSS上的备份文件
+
+osscmd listallobject oss://&lt;bucket&gt;/fit2cloud-backup/nexus
+
+1.  下载并解压缩到/opt目录下
+2.  进入Tomcat目录启动
+
+cd bin
+
+bash startup.sh

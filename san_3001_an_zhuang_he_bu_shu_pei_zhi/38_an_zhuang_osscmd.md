@@ -1,0 +1,11 @@
+## **3.8 安装OSSCMD** {#3-8-osscmd}
+
+如果备份时才用备份到OSS的方案，需要在各个服务器上事先安装osscmd并配置access key 和 secret key。
+
+1.  拷贝离线安装包文件中devops/osscmd目录到/tmp
+2.  执行python setup.py install
+3.  拷贝osscmd到/usr/bin目录下
+4.  配置OSS access key 和 secret key
+
+| osscmd config --host=&lt;oss.aliyuncs.com&gt; --id=accessid --key=accesskey |
+| --- |
