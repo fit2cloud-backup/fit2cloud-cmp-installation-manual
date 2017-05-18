@@ -1,4 +1,4 @@
-# FIT2CLOUD 云管理平台 v2.0 安装及维护手册 {#fit2cloud-v2-0}
+# FIT2CLOUD 云管理平台 v2.0 安装及维护手册 
 
 ![logo.png](/assets/logo.png)
 

@@ -1,4 +1,4 @@
-# **十、Eventagent管理** {#eventagent}
+# **十、Eventagent管理**
 
 **10.1 安装及日志路径**
 
