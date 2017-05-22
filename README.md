@@ -1,8 +1,8 @@
-# FIT2CLOUD 云管理平台 v2.0 安装及维护手册 
+# FIT2CLOUD 云管理平台（CMP） -- 安装及维护手册 
 
 ![logo.png](/assets/logo.png)
 
-管理手册
+安装及维护手册
 
 版本: 1.2
 
