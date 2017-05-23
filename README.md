@@ -1,4 +1,4 @@
-# FIT2CLOUD 云管理平台（CMP）-- 安装及维护手册V1.2 {#fit2cloud-v2-0}
+# FIT2CLOUD 云管理平台（CMP）-- 安装及维护手册 {#fit2cloud-v2-0}
 
 ![logo.png](/assets/logo.png)
 
