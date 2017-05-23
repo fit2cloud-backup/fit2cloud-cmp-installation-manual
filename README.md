@@ -2,7 +2,7 @@
 
 ![logo.png](/assets/logo.png)
 
-管理手册
+安装及维护手册
 
 版本: 1.2
 
