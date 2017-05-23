@@ -18,7 +18,7 @@
   * [6.1 监控项及告警指标](六、监控和告警/6.1 监控项及告警指标.md)
   * [6.2 方式一: 使用FIT2CLOUD在线版监控](六、监控和告警/6.2 方式一: 使用FIT2CLOUD在线版监控.md)
   * [6.3 方式二: 使用内网监控专用FIT2CLOUD监控](六、监控和告警/6.3 方式二: 使用内网监控专用FIT2CLOUD监控.md)
-  * [6.4 方式三: 使用内网客户Nagios,Zabbix监控](六、监控和告警/64_fang_shi_4e093a_shi_yong_nei_wang_ke_hu_nagios_.md)
+  * [6.4 方式三: 使用内网客户Nagios,Zabbix监控](六、监控和告警/6.4 方式三: 使用内网客户Nagios,Zabbix监控.md)
 * [七、日常维护和优化](七、日常维护和优化/README.md)
   * [7.1  JENKINS磁盘定时清理](七、日常维护和优化/7.1 JENKINS磁盘定时清理.md)
   * [7.2 NEXUS磁盘定时清理](七、日常维护和优化/7.2 NEXUS磁盘定时清理.md)
