@@ -1,8 +1,8 @@
-# FIT2CLOUD 云管理平台（CMP） -- 安装及维护手册 {#fit2cloud-v2-0}
+# FIT2CLOUD 云管理平台 v2.0 安装及维护手册 {#fit2cloud-v2-0}
 
-![logo.png](/assets/logo.png)
+![logo.png](export/assets/logo.png)
 
-安装及维护手册
+管理手册
 
 版本: 1.2
 
@@ -21,4 +21,3 @@ FIT2CLOUD,Inc.、FIT2CLOUD徽标是 FIT2CLOUD,Inc. 和或其附属公司的商�
 商标
 
 FIT2CLOUD®
-
