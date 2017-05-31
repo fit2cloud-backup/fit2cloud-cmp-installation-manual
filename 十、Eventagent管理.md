@@ -11,5 +11,6 @@
 
 **10.2 卸载**
 
-| f2c-uninstall-agent |
-| --- |
+```
+f2c-uninstall-agent
+```
